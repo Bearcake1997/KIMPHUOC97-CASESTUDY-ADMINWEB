@@ -1,0 +1,73 @@
+.banner img {
+  width: 100%;
+}
+
+.cart-icon i {
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.list1 p {
+  text-align: center;
+  font-size: 80px;
+}
+
+.product {
+  width: 70%;
+}
+
+.product .product-thumb .image {
+  text-align-last: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.product .product-thumb .title {
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.product .product-thumb .title a {
+  color: black;
+}
+
+.product .product-thumb .description {
+  border-bottom: 1px solid #ccc;
+}
+
+.product .product-thumb .description li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+.product .product-thumb .price {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.product .product-thumb .price .price-new {
+  color: #cc0000;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.product .product-thumb .price .price-old {
+  text-decoration: line-through;
+  color: #292929;
+  font-size: 11px;
+}
+
+.product .product-thumb .button {
+  text-align: center;
+}
+
+.product .product-thumb .button .btn {
+  border-radius: 20px;
+}
+/*# sourceMappingURL=product.css.map */

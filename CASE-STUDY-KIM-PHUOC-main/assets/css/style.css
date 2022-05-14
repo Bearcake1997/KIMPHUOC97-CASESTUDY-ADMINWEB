@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #696969;
+  }
+  
+  a:hover {
+    color: #adad90;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: auto;
+  }
+  
+  .menu {
+  
+    background-color: black;
+    height: 125px;
+  }
+  
+  .menu ul {
+    height: 100%;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .menu ul li:hover {
+    transition: all 0.5s;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #696969;
+  }
+  
+  .login-button a {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .list {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(184, 184, 51);
+  }
+  
+  .catol {
+    width: 100%;
+  }
+  
+  /* .catol .card-product {}
+  
+  .catol .card-product:hover {} */
+  
+  .card-body .card-text {
+    font-size: 15px;
+    color: rgb(17, 19, 19);
+  }
+  
+  .card-body .card-title {
+    font-size: 20px;
+  }
+  
+  .catol .card-product .btn-add {
+    float: left;
+  }
+  
+  .card-body a {
+    font-size: 20px;
+  }
+  
+  .footer {
+    background-color: black;
+    height: 300px;
+  }
+  
+  .footer ul li {
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  
+  .footer .f1 p {
+    color: beige;
+    padding-left: 20px;
+    text-transform: uppercase;
+    background-color: rgb(25, 129, 155);
+    font-size: 25px;
+  }
+  
+  .footer .f2 {
+    text-align: center;
+  }
+  
+  .explore-product {
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  
+  .explore-product .explore-product-link {
+    width: 158px;
+    height: 109px;
+  }
+  
+  .explore-product .explore-product-link .img-explore-product img {
+    width: 120px;
+    height: 100px;
+  }
